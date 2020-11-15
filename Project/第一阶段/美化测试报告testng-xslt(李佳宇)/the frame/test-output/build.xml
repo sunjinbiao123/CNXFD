@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<project name="the frame" basedir=".">
+    <property name="lib.dir" value="lib"/>
+ 
+    <path id="test.classpath">
+      <fileset dir="${lib.dir}" includes="*.jar"/>
+    </path>
+ 
+    <target name="transform">
+        <property name="dir" value=""/>
+  
+        <xslt in="D:/eclipse-workspace/the frame/test-output/testng-results.xml"
+              style="D:/eclipse-workspace/the frame/test-output/testng-results.xsl"
+              out="D:/eclipse-workspace/the frame/test-output/index1.html"
+              classpathref="test.classpath" processor="SaxonLiaison">
+            <param name="testNgXslt.outputDir" expression="D:/eclipse-workspace/the frame/test-output" />
+        </xslt>
+    </target>
+</project>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="227155" started-at="2020-11-15T08:45:55 CST" finished-at="2020-11-15T08:49:42 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="227155" started-at="2020-11-15T08:45:55 CST" finished-at="2020-11-15T08:49:42 CST">
+      <class name="com.test.demo.SmokeTesting">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.test.demo.SmokeTesting@7494e528]" name="doBeforeClass" is-config="true" duration-ms="8845" started-at="2020-11-15T08:45:55 CST" finished-at="2020-11-15T08:46:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.test.demo.SmokeTesting@7494e528]" name="testLogin" is-config="true" duration-ms="15545" started-at="2020-11-15T08:46:04 CST" finished-at="2020-11-15T08:46:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testChangeCol()[pri:0, instance:com.test.demo.SmokeTesting@7494e528]" name="testChangeCol" duration-ms="20" started-at="2020-11-15T08:46:19 CST" finished-at="2020-11-15T08:46:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeCol -->
+        <test-method status="PASS" signature="testLogoOff()[pri:1, instance:com.test.demo.SmokeTesting@7494e528]" name="testLogoOff" duration-ms="15632" started-at="2020-11-15T08:46:19 CST" finished-at="2020-11-15T08:46:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoOff -->
+        <test-method status="PASS" signature="testLogoOn()[pri:2, instance:com.test.demo.SmokeTesting@7494e528]" name="testLogoOn" duration-ms="15382" started-at="2020-11-15T08:46:35 CST" finished-at="2020-11-15T08:46:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoOn -->
+        <test-method status="PASS" signature="testSurveyListOn()[pri:3, instance:com.test.demo.SmokeTesting@7494e528]" name="testSurveyListOn" duration-ms="16110" started-at="2020-11-15T08:46:50 CST" finished-at="2020-11-15T08:47:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSurveyListOn -->
+        <test-method status="PASS" signature="testSurveyListOff()[pri:4, instance:com.test.demo.SmokeTesting@7494e528]" name="testSurveyListOff" duration-ms="15566" started-at="2020-11-15T08:47:06 CST" finished-at="2020-11-15T08:47:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSurveyListOff -->
+        <test-method status="PASS" signature="testContainerOff()[pri:5, instance:com.test.demo.SmokeTesting@7494e528]" name="testContainerOff" duration-ms="10" started-at="2020-11-15T08:47:22 CST" finished-at="2020-11-15T08:47:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainerOff -->
+        <test-method status="FAIL" signature="testContainerOn()[pri:6, instance:com.test.demo.SmokeTesting@7494e528]" name="testContainerOn" duration-ms="15402" started-at="2020-11-15T08:47:22 CST" finished-at="2020-11-15T08:47:37 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.test.demo.SmokeTesting.testContainerOn(SmokeTesting.java:104)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainerOn -->
+        <test-method status="PASS" signature="testLastSurveyOff()[pri:7, instance:com.test.demo.SmokeTesting@7494e528]" name="testLastSurveyOff" duration-ms="15372" started-at="2020-11-15T08:47:37 CST" finished-at="2020-11-15T08:47:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastSurveyOff -->
+        <test-method status="PASS" signature="testLastSurveyOn()[pri:8, instance:com.test.demo.SmokeTesting@7494e528]" name="testLastSurveyOn" duration-ms="15382" started-at="2020-11-15T08:47:53 CST" finished-at="2020-11-15T08:48:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastSurveyOn -->
+        <test-method status="PASS" signature="testSearchOff()[pri:9, instance:com.test.demo.SmokeTesting@7494e528]" name="testSearchOff" duration-ms="46678" started-at="2020-11-15T08:48:08 CST" finished-at="2020-11-15T08:48:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchOff -->
+        <test-method status="PASS" signature="testSearchOn()[pri:10, instance:com.test.demo.SmokeTesting@7494e528]" name="testSearchOn" duration-ms="46585" started-at="2020-11-15T08:48:55 CST" finished-at="2020-11-15T08:49:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchOn -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.test.demo.SmokeTesting@7494e528]" name="doAfterMethod" is-config="true" duration-ms="556" started-at="2020-11-15T08:49:41 CST" finished-at="2020-11-15T08:49:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.test.demo.SmokeTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
