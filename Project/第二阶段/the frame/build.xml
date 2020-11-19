@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="the frame" default="runtests" basedir=".">
+	<property name="src" value="src"/>
+	<property name="dest" value="./build/classes"/>
+	<property name="libs.dir" value="${basedir}/libs"/>
+	<property name="selenium_jar" value="selenium.jar"/>
+	<property name="testng.output.dir" value="./test-output"/>
+	<path id="compile.path">
+		<fileset dir="${libs.dir}/">
+			<include name="*.jar"/>
+		</fileset>
+		<pathelement location="${src}"/>
+		<pathelement location="${dest}"/>
+	</path>
+	<target name="clean">
+	    <delete dir="${dest}"/>
+	</target>
+	<target name="compile" depends="clean">
+		<mkdir dir="${dest}"/>
+		<javac srcdir="${src}" destdir="${dest}" classpathref="compile.path" includeantruntime="on" encoding="gbk" />
+	</target>
+	<taskdef resource="testngtasks" classpath="${libs.dir}/org.testng_7.1.0.r202001120626.jar"/>
+	<target name="runtests" depends="compile" description="run tests">
+		<testng outputdir="${testng.output.dir}" classpathref="compile.path" >
+			<xmlfileset dir="." includes="testng.xml"/>
+		</testng>
+		<antcall target="transform"/>
+	</target>
+	<target name="transform">
+	  	<property name="dir" value=""/> 
+	  	<xslt in="${basedir}/test-output/testng-results.xml"
+	  	style="${basedir}/test-output/testng-results.xsl"
+		out="${basedir}/test-output/index1.html"
+	  	classpathref="compile.path" processor="SaxonLiaison">
+	        <param name="testNgXslt.outputDir" expression="${basedir}/test-output" />
+	   	</xslt>
+		<antcall target="sendemail"/>
+	</target>
+	<target name="sendemail" depends="compile">
+		<java classname="com.test.utils.MailUtil" classpath="${dest}" classpathref="compile.path">
+		</java>
+	</target>
+</project>
