@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Nopackage</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Nopackage</h1>
+<p>
+  Test duration: 843.162s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.Login_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    10.224s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin1", "password", "LZD123.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()=&apos;关闭&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20796, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 6da95217-182e-4299-b5f3-6d0633deb32b<br/>
+*** Element info: {Using=xpath, value=//button[text()=&apos;关闭&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Login_Test.login1(Login_Test.java:51)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    9.892s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD1234.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()=&apos;关闭&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20796, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 6da95217-182e-4299-b5f3-6d0633deb32b<br/>
+*** Element info: {Using=xpath, value=//button[text()=&apos;关闭&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Login_Test.login1(Login_Test.java:51)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    9.298s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin1", "password", "LZD1234.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()=&apos;关闭&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 20796, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 6da95217-182e-4299-b5f3-6d0633deb32b<br/>
+*** Element info: {Using=xpath, value=//button[text()=&apos;关闭&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Login_Test.login1(Login_Test.java:51)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Main_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.986s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD5", "fullname", "liuzhidan ", "email", "2.79879155E8"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage(Main_Test.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.808s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD1", "fullname", "liuzhidan1 ", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage(Main_Test.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.842s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD1", "fullname", "liuzhidan ", "email", "188139337@QQ.com"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage(Main_Test.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.586s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA2", "fullname", "liuzhidan ", "email", "279879154@QQ.com", "password", "1.2345678E7"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.390s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA1", "fullname", "liuzhidan ", "email", "279879153@QQ.com", "password", "1234.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.352s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA9", "fullname", "liuzhidan ", "email", "279879160@QQ.com", "password", "LZDlzd12"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.365s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA10", "fullname", "liuzhidan ", "email", "279879161@QQ.com", "password", "LZD123.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.360s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA7", "fullname", "liuzhidan ", "email", "279879159@QQ.com", "password", "LZDlzdaa"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.579s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA6", "fullname", "liuzhidan ", "email", "279879158@QQ.com", "password", "lzd12345"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-11">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.412s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA4", "fullname", "liuzhidan ", "email", "279879156@QQ.com", "password", "lzdhcyaa"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-12', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-12">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.543s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA3", "fullname", "liuzhidan ", "email", "279879155@QQ.com", "password", "LZDHCYAA"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-13', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-13">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.609s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA12", "fullname", "liuzhidan ", "email", "279879162@QQ.com", "password", "Lzd123.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-14', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-14">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.544s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA11", "fullname", "liuzhidan ", "email", "279879162@QQ.com", "password", "lzd123.."</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-15', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-15">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.591s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA5", "fullname", "liuzhidan ", "email", "279879157@QQ.com", "password", "LZD12345"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-16', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-16">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage2
+      </td>
+  <td class="duration">
+    17.692s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HUA13", "fullname", "liuzhidan ", "email", "279879162@QQ.com", "password", "Lchdjshcjdhujchdushfusuhdisaihdisahf"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-17', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户创建成功&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7204, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: ebe5f7ab-ec9e-4e9b-8406-21f648eb6331<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户创建成功&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-17">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Main_Test.userManage2(Main_Test.java:77)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.NaddUserGroup_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.026s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "用户组", "description", "测试用户组名是不是可以重复"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-18', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户组添加成功！&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5216, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: f124806a-a05f-471a-bbc2-0df3cf2fd25b<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户组添加成功！&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-18">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.NaddUserGroup_Test.createUserGroup(NaddUserGroup_Test.java:56)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup2
+      </td>
+  <td class="duration">
+    14.478s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "hehehe", "description", "测试不填用户组名字是否可以创建成功"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-19', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;用户组添加成功！&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5216, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: f124806a-a05f-471a-bbc2-0df3cf2fd25b<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;用户组添加成功！&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-19">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.NaddUserGroup_Test.createUserGroup2(NaddUserGroup_Test.java:82)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Role_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    19.904s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "角色", "description", "测试角色名是不是可以重复"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-20', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: An error occured while trying to save, please reload the page Code:1571314170100: <br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22404, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 7f40276b-3a15-476b-a18c-783c5c4bf860<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;角色已成功保存&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-20">
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Role_Test.createUserRole(Role_Test.java:58)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole2
+      </td>
+  <td class="duration">
+    15.794s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "hahaha", "description", "测试不填角色描述是否可以创建成功"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-21', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;角色已成功保存&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22404, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 7f40276b-3a15-476b-a18c-783c5c4bf860<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;角色已成功保存&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-21">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Role_Test.createUserRole2(Role_Test.java:79)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole2
+      </td>
+  <td class="duration">
+    15.844s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "hehehe", "description", "测试不填角色名字是否可以创建成功"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-22', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;角色已成功保存&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;DESKTOP-PL1AI9U&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22404, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 7f40276b-3a15-476b-a18c-783c5c4bf860<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;角色已成功保存&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-22">
+              sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.Role_Test.createUserRole2(Role_Test.java:83)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1257)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.Login_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    10.054s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD123.."</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Main_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  addXnUser
+      </td>
+  <td class="duration">
+    9.851s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    13.319s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD123.."</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.962s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD11", "fullname", "liuzh$%%#", "email", "279879153@126.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.701s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD4", "fullname", "liuzhidahcudshfudhsufhdu", "email", "279879154@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    11.256s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD2", "fullname", "liuzhidan ", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    11.121s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HCUDSHCDHSHCJXHZ", "fullname", "liuzhidan ", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.791s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "HCY", "fullname", "12345.0", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.922s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD!!%", "fullname", "liuzhidan", "email", "279879153@126.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    11.096s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD3", "fullname", "liuzhidan ", "email", "27983@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    11.295s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD1", "fullname", "liuzhidan ", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    11.423s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD8", "fullname", "liuzhidan ", "email", "279879153@126.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.874s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "LZD7", "fullname", "liuzhidan ", "email", "279879157@163.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.994s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "123456.0", "fullname", "huachen", "email", "279879153@QQ.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.NaddUserGroup_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.692s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "用户组", "description", "测试用户组名是不是可以是纯中文"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.548s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊", "description", "测试用户组名最长可以是多长"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.626s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "123.0", "description", "测试用户组名是不是可以是纯数字"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    16.021s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "usergroup", "description", "测试用户组名是不是可以是纯英文"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.723s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "A", "description", "测试用户组名最短可以是多短"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup
+      </td>
+  <td class="duration">
+    15.632s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "!!@#$", "description", "测试用户组名是不是可以是特殊符号"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserGroup2
+      </td>
+  <td class="duration">
+    15.854s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"usergroup", "hahaha", "description", "测试不填用户组描述是否可以创建成功"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    12.469s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD123.."</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Role_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    20.429s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "!!@#$", "description", "测试角色名是不是可以是特殊符号"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    20.146s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊", "description", "测试角色名最长可以是多长"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    19.847s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "A", "description", "测试角色名最短可以是多短"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    20.131s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "123.0", "description", "测试角色名是不是可以是纯数字"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    20.131s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "角色", "description", "测试角色名是不是可以是纯中文"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createUserRole
+      </td>
+  <td class="duration">
+    20.425s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"role", "role", "description", "测试角色名是不是可以是纯英文"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    12.733s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD123.."</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.SdeleteUserGroup_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    12.872s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "LZD123.."</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testDeleteUserGroup
+      </td>
+  <td class="duration">
+    13.503s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
