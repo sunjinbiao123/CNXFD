@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Nopackage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.375">
+  <properties />
+  
+  
+            <testcase name="login" time="12.872" classname="tests.SdeleteUserGroup_Test" />
+                <testcase name="testDeleteUserGroup" time="13.503" classname="tests.SdeleteUserGroup_Test" />
+      
+</testsuite>
