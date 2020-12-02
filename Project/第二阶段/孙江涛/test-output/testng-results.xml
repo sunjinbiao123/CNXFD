@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="51" passed="51">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="1089182" started-at="2020-12-02T08:10:05 CST" finished-at="2020-12-02T08:28:14 CST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="1089182" started-at="2020-12-02T08:10:05 CST" finished-at="2020-12-02T08:28:14 CST">
+      <class name="testcase.LoginTest">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:testcase.LoginTest@30b8a058]" name="initBrowser" is-config="true" duration-ms="3156" started-at="2020-12-02T08:10:14 CST" finished-at="2020-12-02T08:10:17 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.LoginTest@30b8a058]" name="initPage" is-config="true" duration-ms="2" started-at="2020-12-02T08:10:17 CST" finished-at="2020-12-02T08:10:17 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="test_login_fail()[pri:0, instance:testcase.LoginTest@30b8a058]" name="test_login_fail" duration-ms="3456" started-at="2020-12-02T08:10:17 CST" finished-at="2020-12-02T08:10:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_fail -->
+        <test-method status="PASS" signature="test_login_success()[pri:0, instance:testcase.LoginTest@30b8a058]" name="test_login_success" duration-ms="4569" started-at="2020-12-02T08:10:20 CST" finished-at="2020-12-02T08:10:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_success -->
+        <test-method status="PASS" signature="test_clickZhangHao()[pri:1, instance:testcase.LoginTest@30b8a058]" name="test_clickZhangHao" duration-ms="6702" started-at="2020-12-02T08:10:25 CST" finished-at="2020-12-02T08:10:32 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickZhangHao -->
+        <test-method status="PASS" signature="test_editEmaiFullName()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editEmaiFullName" duration-ms="3350" started-at="2020-12-02T08:10:32 CST" finished-at="2020-12-02T08:10:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editEmaiFullName -->
+        <test-method status="PASS" signature="test_editEmail()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editEmail" duration-ms="3405" started-at="2020-12-02T08:10:35 CST" finished-at="2020-12-02T08:10:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editEmail -->
+        <test-method status="PASS" signature="test_editPassword()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword" duration-ms="19861" started-at="2020-12-02T08:10:38 CST" finished-at="2020-12-02T08:10:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword -->
+        <test-method status="PASS" signature="test_editPassword_fail1()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword_fail1" duration-ms="20214" started-at="2020-12-02T08:10:58 CST" finished-at="2020-12-02T08:11:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword_fail1 -->
+        <test-method status="PASS" signature="test_editPassword_fail2()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword_fail2" duration-ms="19154" started-at="2020-12-02T08:11:18 CST" finished-at="2020-12-02T08:11:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword_fail2 -->
+        <test-method status="PASS" signature="test_editPassword_fail3()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword_fail3" duration-ms="19337" started-at="2020-12-02T08:11:38 CST" finished-at="2020-12-02T08:11:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword_fail3 -->
+        <test-method status="PASS" signature="test_editPassword_fail4()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword_fail4" duration-ms="19077" started-at="2020-12-02T08:11:57 CST" finished-at="2020-12-02T08:12:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword_fail4 -->
+        <test-method status="PASS" signature="test_editPassword_fail5()[pri:2, instance:testcase.LoginTest@30b8a058]" name="test_editPassword_fail5" duration-ms="19153" started-at="2020-12-02T08:12:16 CST" finished-at="2020-12-02T08:12:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_editPassword_fail5 -->
+        <test-method status="PASS" signature="test_clickAnswer()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickAnswer" duration-ms="12593" started-at="2020-12-02T08:12:35 CST" finished-at="2020-12-02T08:12:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickAnswer -->
+        <test-method status="PASS" signature="test_clickPerson()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickPerson" duration-ms="6533" started-at="2020-12-02T08:12:48 CST" finished-at="2020-12-02T08:12:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickPerson -->
+        <test-method status="PASS" signature="test_clickPre()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickPre" duration-ms="13007" started-at="2020-12-02T08:12:54 CST" finished-at="2020-12-02T08:13:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickPre -->
+        <test-method status="PASS" signature="test_clickQues()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickQues" duration-ms="12988" started-at="2020-12-02T08:13:07 CST" finished-at="2020-12-02T08:13:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickQues -->
+        <test-method status="PASS" signature="test_clickShow()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickShow" duration-ms="12974" started-at="2020-12-02T08:13:20 CST" finished-at="2020-12-02T08:13:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickShow -->
+        <test-method status="PASS" signature="test_clickSub()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickSub" duration-ms="12602" started-at="2020-12-02T08:13:33 CST" finished-at="2020-12-02T08:13:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickSub -->
+        <test-method status="PASS" signature="test_clickTemp()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_clickTemp" duration-ms="12967" started-at="2020-12-02T08:13:46 CST" finished-at="2020-12-02T08:13:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickTemp -->
+        <test-method status="PASS" signature="test_selectHtml()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_selectHtml" duration-ms="12957" started-at="2020-12-02T08:13:59 CST" finished-at="2020-12-02T08:14:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_selectHtml -->
+        <test-method status="PASS" signature="test_selectJie()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_selectJie" duration-ms="9781" started-at="2020-12-02T08:14:12 CST" finished-at="2020-12-02T08:14:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_selectJie -->
+        <test-method status="PASS" signature="test_selectLock()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_selectLock" duration-ms="12947" started-at="2020-12-02T08:14:22 CST" finished-at="2020-12-02T08:14:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_selectLock -->
+        <test-method status="PASS" signature="test_selectNote()[pri:3, instance:testcase.LoginTest@30b8a058]" name="test_selectNote" duration-ms="13014" started-at="2020-12-02T08:14:35 CST" finished-at="2020-12-02T08:14:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_selectNote -->
+        <test-method status="PASS" signature="test_clickCopy()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopy" duration-ms="3804" started-at="2020-12-02T08:14:48 CST" finished-at="2020-12-02T08:14:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopy -->
+        <test-method status="PASS" signature="test_clickCopyAnswers()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyAnswers" duration-ms="3232" started-at="2020-12-02T08:14:51 CST" finished-at="2020-12-02T08:14:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyAnswers -->
+        <test-method status="PASS" signature="test_clickCopyConditions()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyConditions" duration-ms="3220" started-at="2020-12-02T08:14:55 CST" finished-at="2020-12-02T08:14:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyConditions -->
+        <test-method status="PASS" signature="test_clickCopyDiao()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyDiao" duration-ms="3227" started-at="2020-12-02T08:14:58 CST" finished-at="2020-12-02T08:15:01 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyDiao -->
+        <test-method status="PASS" signature="test_clickCopyEnddate()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyEnddate" duration-ms="3221" started-at="2020-12-02T08:15:01 CST" finished-at="2020-12-02T08:15:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyEnddate -->
+        <test-method status="PASS" signature="test_clickCopyPermiss()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyPermiss" duration-ms="3221" started-at="2020-12-02T08:15:04 CST" finished-at="2020-12-02T08:15:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyPermiss -->
+        <test-method status="PASS" signature="test_clickCopyQuotas()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyQuotas" duration-ms="3217" started-at="2020-12-02T08:15:07 CST" finished-at="2020-12-02T08:15:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyQuotas -->
+        <test-method status="PASS" signature="test_clickCopyStartid()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopyStartid" duration-ms="3219" started-at="2020-12-02T08:15:11 CST" finished-at="2020-12-02T08:15:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopyStartid -->
+        <test-method status="PASS" signature="test_clickCopySurvey()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopySurvey" duration-ms="6667" started-at="2020-12-02T08:15:14 CST" finished-at="2020-12-02T08:15:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopySurvey -->
+        <test-method status="PASS" signature="test_clickCopySurveyId()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopySurveyId" duration-ms="6240" started-at="2020-12-02T08:15:21 CST" finished-at="2020-12-02T08:15:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopySurveyId -->
+        <test-method status="PASS" signature="test_clickCopySurveyName()[pri:5, instance:testcase.LoginTest@30b8a058]" name="test_clickCopySurveyName" duration-ms="6256" started-at="2020-12-02T08:15:27 CST" finished-at="2020-12-02T08:15:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickCopySurveyName -->
+        <test-method status="PASS" signature="test_TongJi()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_TongJi" duration-ms="55438" started-at="2020-12-02T08:15:33 CST" finished-at="2020-12-02T08:16:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TongJi -->
+        <test-method status="PASS" signature="test_clickBut1()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickBut1" duration-ms="52407" started-at="2020-12-02T08:16:28 CST" finished-at="2020-12-02T08:17:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickBut1 -->
+        <test-method status="PASS" signature="test_clickBut2()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickBut2" duration-ms="52408" started-at="2020-12-02T08:17:21 CST" finished-at="2020-12-02T08:18:13 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickBut2 -->
+        <test-method status="PASS" signature="test_clickBut3()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickBut3" duration-ms="52367" started-at="2020-12-02T08:18:13 CST" finished-at="2020-12-02T08:19:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickBut3 -->
+        <test-method status="PASS" signature="test_clickBut4()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickBut4" duration-ms="52383" started-at="2020-12-02T08:19:06 CST" finished-at="2020-12-02T08:19:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickBut4 -->
+        <test-method status="PASS" signature="test_clickChartType()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickChartType" duration-ms="6706" started-at="2020-12-02T08:19:58 CST" finished-at="2020-12-02T08:20:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickChartType -->
+        <test-method status="PASS" signature="test_clickFormat1()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickFormat1" duration-ms="7" started-at="2020-12-02T08:20:05 CST" finished-at="2020-12-02T08:20:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickFormat1 -->
+        <test-method status="PASS" signature="test_clickFormat2()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickFormat2" duration-ms="4" started-at="2020-12-02T08:20:05 CST" finished-at="2020-12-02T08:20:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickFormat2 -->
+        <test-method status="PASS" signature="test_clickFormat3()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickFormat3" duration-ms="55710" started-at="2020-12-02T08:20:05 CST" finished-at="2020-12-02T08:21:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickFormat3 -->
+        <test-method status="PASS" signature="test_clickFormat4()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickFormat4" duration-ms="52789" started-at="2020-12-02T08:21:00 CST" finished-at="2020-12-02T08:21:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickFormat4 -->
+        <test-method status="PASS" signature="test_clickOnlyFin()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickOnlyFin" duration-ms="55402" started-at="2020-12-02T08:21:53 CST" finished-at="2020-12-02T08:22:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickOnlyFin -->
+        <test-method status="PASS" signature="test_clickOnlyNoFin()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickOnlyNoFin" duration-ms="52398" started-at="2020-12-02T08:22:49 CST" finished-at="2020-12-02T08:23:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickOnlyNoFin -->
+        <test-method status="PASS" signature="test_clickRoww1()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickRoww1" duration-ms="52390" started-at="2020-12-02T08:23:41 CST" finished-at="2020-12-02T08:24:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickRoww1 -->
+        <test-method status="PASS" signature="test_clickRoww2()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickRoww2" duration-ms="52415" started-at="2020-12-02T08:24:33 CST" finished-at="2020-12-02T08:25:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickRoww2 -->
+        <test-method status="PASS" signature="test_clickRoww3()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickRoww3" duration-ms="52530" started-at="2020-12-02T08:25:26 CST" finished-at="2020-12-02T08:26:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickRoww3 -->
+        <test-method status="PASS" signature="test_clickRoww4()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickRoww4" duration-ms="52541" started-at="2020-12-02T08:26:18 CST" finished-at="2020-12-02T08:27:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickRoww4 -->
+        <test-method status="PASS" signature="test_clickRoww5()[pri:6, instance:testcase.LoginTest@30b8a058]" name="test_clickRoww5" duration-ms="52676" started-at="2020-12-02T08:27:11 CST" finished-at="2020-12-02T08:28:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickRoww5 -->
+        <test-method status="PASS" signature="test_clickOut()[pri:0, instance:testcase.LoginTest@30b8a058]" name="test_clickOut" is-config="true" duration-ms="6862" started-at="2020-12-02T08:28:04 CST" finished-at="2020-12-02T08:28:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_clickOut -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testcase.LoginTest@30b8a058]" name="close" is-config="true" duration-ms="3586" started-at="2020-12-02T08:28:11 CST" finished-at="2020-12-02T08:28:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcase.LoginTest -->
+      <class name="com.webtest.demo.demo">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.webtest.demo.demo@68bbe345]" name="initBrowser" is-config="true" duration-ms="5101" started-at="2020-12-02T08:10:05 CST" finished-at="2020-12-02T08:10:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:com.webtest.demo.demo@68bbe345]" name="demo" duration-ms="6" started-at="2020-12-02T08:10:10 CST" finished-at="2020-12-02T08:10:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.webtest.demo.demo@68bbe345]" name="close" is-config="true" duration-ms="3648" started-at="2020-12-02T08:10:10 CST" finished-at="2020-12-02T08:10:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.webtest.demo.demo -->
+    </test> <!-- test1 -->
+  </suite> <!-- s1 -->
+</testng-results>
