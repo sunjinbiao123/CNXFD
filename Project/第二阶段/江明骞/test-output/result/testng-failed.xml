@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [result]">
+  <listeners>
+    <listener class-name="com.freemarker.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.webtest.test.demo">
+        <methods>
+          <include name="test47"/>
+          <include name="test50"/>
+          <include name="test19"/>
+          <include name="test17"/>
+          <include name="test18"/>
+          <include name="test11"/>
+          <include name="test12"/>
+          <include name="test10"/>
+          <include name="test15"/>
+          <include name="test16"/>
+          <include name="test13"/>
+          <include name="test36"/>
+          <include name="test40"/>
+          <include name="test41"/>
+          <include name="test44"/>
+          <include name="test45"/>
+          <include name="test42"/>
+          <include name="test43"/>
+          <include name="test48"/>
+          <include name="init"/>
+          <include name="test49"/>
+          <include name="test46"/>
+          <include name="test25"/>
+          <include name="initBrowser"/>
+          <include name="test30"/>
+          <include name="close"/>
+          <include name="test39"/>
+          <include name="test33"/>
+          <include name="test34"/>
+          <include name="test31"/>
+          <include name="test32"/>
+          <include name="test37"/>
+          <include name="test38"/>
+          <include name="test35"/>
+          <include name="test14"/>
+          <include name="test8"/>
+          <include name="test3"/>
+          <include name="test6"/>
+          <include name="test9"/>
+          <include name="test4"/>
+          <include name="test2"/>
+          <include name="test5"/>
+          <include name="test28"/>
+          <include name="test29"/>
+          <include name="test7"/>
+          <include name="test22"/>
+          <include name="test23"/>
+          <include name="test20"/>
+          <include name="test21"/>
+          <include name="test26"/>
+          <include name="test27"/>
+          <include name="test24"/>
+        </methods>
+      </class> <!-- com.webtest.test.demo -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [result] -->
