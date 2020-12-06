@@ -5,11 +5,12 @@
     <classes>
       <class name="com.test.demo.SmokeTesting">
         <methods>
+          <include name="testChangeSiteAdminName"/>
           <include name="doAfterMethod"/>
-          <include name="testChangeSMTPDebug2"/>
           <include name="testLogin"/>
-          <include name="testChangeSMTPDebug1"/>
+          <include name="testChangeDefaultAdminEmail"/>
           <include name="doBeforeClass"/>
+          <include name="testContainerOn"/>
         </methods>
       </class> <!-- com.test.demo.SmokeTesting -->
     </classes>

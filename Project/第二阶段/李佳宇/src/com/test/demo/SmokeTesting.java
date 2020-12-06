@@ -20,7 +20,7 @@ public class SmokeTesting extends BaseTest {
 	public void testLogin() throws InterruptedException {		
 			webtest.open("http://localhost:7777/index.php/admin/authentication/sa/login");
 			webtest.type("name=user","admin" );
-			webtest.type("name=password", "password");
+			webtest.type("name=password", "admin");
 			webtest.click("name=login_submit");
 			webtest.click("xpath=//*[@id='welcomeModal']/div/div/div[3]/button");
 			assertTrue(webtest.isElementPresent("id=notification-bell"));	

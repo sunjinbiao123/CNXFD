@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="70" passed="67">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1506530" started-at="2020-12-03T08:49:56 CST" finished-at="2020-12-03T09:15:03 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1506530" started-at="2020-12-03T08:49:56 CST" finished-at="2020-12-03T09:15:03 CST">
+      <class name="com.test.demo.SmokeTesting">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.test.demo.SmokeTesting@3fd7a715]" name="doBeforeClass" is-config="true" duration-ms="7673" started-at="2020-12-03T08:49:56 CST" finished-at="2020-12-03T08:50:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testLogin" is-config="true" duration-ms="19843" started-at="2020-12-03T08:50:04 CST" finished-at="2020-12-03T08:50:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogoOff()[pri:1, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testLogoOff" duration-ms="15198" started-at="2020-12-03T08:50:24 CST" finished-at="2020-12-03T08:50:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoOff -->
+        <test-method status="PASS" signature="testLogoOn()[pri:2, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testLogoOn" duration-ms="13813" started-at="2020-12-03T08:50:39 CST" finished-at="2020-12-03T08:50:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoOn -->
+        <test-method status="PASS" signature="testSurveyListOn()[pri:3, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testSurveyListOn" duration-ms="15148" started-at="2020-12-03T08:50:53 CST" finished-at="2020-12-03T08:51:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSurveyListOn -->
+        <test-method status="PASS" signature="testSurveyListOff()[pri:4, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testSurveyListOff" duration-ms="14126" started-at="2020-12-03T08:51:08 CST" finished-at="2020-12-03T08:51:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSurveyListOff -->
+        <test-method status="PASS" signature="testContainerOff()[pri:5, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testContainerOff" duration-ms="10" started-at="2020-12-03T08:51:22 CST" finished-at="2020-12-03T08:51:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainerOff -->
+        <test-method status="FAIL" signature="testContainerOn()[pri:6, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testContainerOn" duration-ms="14631" started-at="2020-12-03T08:51:22 CST" finished-at="2020-12-03T08:51:37 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.test.demo.SmokeTesting.testContainerOn(SmokeTesting.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainerOn -->
+        <test-method status="PASS" signature="testLastSurveyOff()[pri:7, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testLastSurveyOff" duration-ms="13562" started-at="2020-12-03T08:51:37 CST" finished-at="2020-12-03T08:51:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastSurveyOff -->
+        <test-method status="PASS" signature="testLastSurveyOn()[pri:8, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testLastSurveyOn" duration-ms="13756" started-at="2020-12-03T08:51:50 CST" finished-at="2020-12-03T08:52:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastSurveyOn -->
+        <test-method status="PASS" signature="testSearchOff()[pri:9, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testSearchOff" duration-ms="42483" started-at="2020-12-03T08:52:04 CST" finished-at="2020-12-03T08:52:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchOff -->
+        <test-method status="PASS" signature="testSearchOn()[pri:10, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testSearchOn" duration-ms="41852" started-at="2020-12-03T08:52:47 CST" finished-at="2020-12-03T08:53:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchOn -->
+        <test-method status="PASS" signature="testChangeCol()[pri:11, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeCol" duration-ms="15" started-at="2020-12-03T08:53:28 CST" finished-at="2020-12-03T08:53:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeCol -->
+        <test-method status="PASS" signature="testChangeBtnDirection()[pri:12, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeBtnDirection" duration-ms="19170" started-at="2020-12-03T08:53:28 CST" finished-at="2020-12-03T08:53:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBtnDirection -->
+        <test-method status="PASS" signature="testCreateBtn()[pri:13, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtn" duration-ms="30396" started-at="2020-12-03T08:53:48 CST" finished-at="2020-12-03T08:54:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtn -->
+        <test-method status="PASS" signature="testDeleteBtn()[pri:14, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testDeleteBtn" duration-ms="17843" started-at="2020-12-03T08:54:18 CST" finished-at="2020-12-03T08:54:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBtn -->
+        <test-method status="PASS" signature="testEditBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnFromExcel" duration-ms="30143" started-at="2020-12-03T08:54:38 CST" data-provider="testData1" finished-at="2020-12-03T08:55:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/survey/sa/newsurvey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnFromExcel -->
+        <test-method status="PASS" signature="testEditBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnFromExcel" duration-ms="30019" started-at="2020-12-03T08:55:08 CST" data-provider="testData1" finished-at="2020-12-03T08:55:39 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/survey/sa/listsurveys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnFromExcel -->
+        <test-method status="PASS" signature="testEditBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnFromExcel" duration-ms="29620" started-at="2020-12-03T08:55:39 CST" data-provider="testData1" finished-at="2020-12-03T08:56:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/globalsettings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnFromExcel -->
+        <test-method status="PASS" signature="testEditBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnFromExcel" duration-ms="29699" started-at="2020-12-03T08:56:08 CST" data-provider="testData1" finished-at="2020-12-03T08:56:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/update]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnFromExcel -->
+        <test-method status="PASS" signature="testEditBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnFromExcel" duration-ms="29914" started-at="2020-12-03T08:56:38 CST" data-provider="testData1" finished-at="2020-12-03T08:57:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://account.limesurvey.org/limestore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnFromExcel -->
+        <test-method status="PASS" signature="testEditBtnPosition()[pri:16, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnPosition" duration-ms="17827" started-at="2020-12-03T08:57:08 CST" finished-at="2020-12-03T08:57:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnPosition -->
+        <test-method status="PASS" signature="testEditBtnUrl()[pri:17, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnUrl" duration-ms="26950" started-at="2020-12-03T08:57:26 CST" finished-at="2020-12-03T08:57:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnUrl -->
+        <test-method status="PASS" signature="testEditBtnTitle()[pri:18, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnTitle" duration-ms="19437" started-at="2020-12-03T08:57:53 CST" finished-at="2020-12-03T08:58:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnTitle -->
+        <test-method status="PASS" signature="testEditBtnIcon()[pri:19, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnIcon" duration-ms="24631" started-at="2020-12-03T08:58:12 CST" finished-at="2020-12-03T08:58:37 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnIcon -->
+        <test-method status="PASS" signature="testEditBtnDescription()[pri:20, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnDescription" duration-ms="18131" started-at="2020-12-03T08:58:37 CST" finished-at="2020-12-03T08:58:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnDescription -->
+        <test-method status="PASS" signature="testEditBtnShowTo()[pri:21, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditBtnShowTo" duration-ms="23151" started-at="2020-12-03T08:58:55 CST" finished-at="2020-12-03T08:59:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditBtnShowTo -->
+        <test-method status="PASS" signature="testCreateBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtnFromExcel" duration-ms="30160" started-at="2020-12-03T08:59:18 CST" data-provider="testData1" finished-at="2020-12-03T08:59:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/survey/sa/newsurvey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtnFromExcel -->
+        <test-method status="PASS" signature="testCreateBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtnFromExcel" duration-ms="30320" started-at="2020-12-03T08:59:48 CST" data-provider="testData1" finished-at="2020-12-03T09:00:18 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/survey/sa/listsurveys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtnFromExcel -->
+        <test-method status="PASS" signature="testCreateBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtnFromExcel" duration-ms="30236" started-at="2020-12-03T09:00:18 CST" data-provider="testData1" finished-at="2020-12-03T09:00:49 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/globalsettings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtnFromExcel -->
+        <test-method status="PASS" signature="testCreateBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtnFromExcel" duration-ms="30295" started-at="2020-12-03T09:00:49 CST" data-provider="testData1" finished-at="2020-12-03T09:01:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin/update]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtnFromExcel -->
+        <test-method status="PASS" signature="testCreateBtnFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testCreateBtnFromExcel" duration-ms="30054" started-at="2020-12-03T09:01:19 CST" data-provider="testData1" finished-at="2020-12-03T09:01:49 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://account.limesurvey.org/limestore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test title 5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test desc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBtnFromExcel -->
+        <test-method status="PASS" signature="testRestoreBtn()[pri:23, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testRestoreBtn" duration-ms="17284" started-at="2020-12-03T09:01:49 CST" finished-at="2020-12-03T09:02:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestoreBtn -->
+        <test-method status="PASS" signature="testShowPhpConf()[pri:24, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testShowPhpConf" duration-ms="21475" started-at="2020-12-03T09:02:06 CST" finished-at="2020-12-03T09:02:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowPhpConf -->
+        <test-method status="PASS" signature="testChangeSiteName()[pri:25, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSiteName" duration-ms="15197" started-at="2020-12-03T09:02:28 CST" finished-at="2020-12-03T09:02:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSiteName -->
+        <test-method status="PASS" signature="testChangeDefaultTheme()[pri:26, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeDefaultTheme" duration-ms="19504" started-at="2020-12-03T09:02:43 CST" finished-at="2020-12-03T09:03:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeDefaultTheme -->
+        <test-method status="PASS" signature="testChangeAdminTheme()[pri:27, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeAdminTheme" duration-ms="19435" started-at="2020-12-03T09:03:03 CST" finished-at="2020-12-03T09:03:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeAdminTheme -->
+        <test-method status="PASS" signature="testChangeTimeAdjust()[pri:28, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeTimeAdjust" duration-ms="14102" started-at="2020-12-03T09:03:22 CST" finished-at="2020-12-03T09:03:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeTimeAdjust -->
+        <test-method status="PASS" signature="testChangeCharacterset()[pri:29, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeCharacterset" duration-ms="19314" started-at="2020-12-03T09:03:36 CST" finished-at="2020-12-03T09:03:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeCharacterset -->
+        <test-method status="PASS" signature="testChangeKeys()[pri:30, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeys" duration-ms="14488" started-at="2020-12-03T09:03:55 CST" finished-at="2020-12-03T09:04:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeys -->
+        <test-method status="PASS" signature="testChangeKeysFromRxcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeysFromRxcel" duration-ms="14133" started-at="2020-12-03T09:04:10 CST" data-provider="testData2" finished-at="2020-12-03T09:04:24 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeysFromRxcel -->
+        <test-method status="PASS" signature="testChangeKeysFromRxcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeysFromRxcel" duration-ms="14240" started-at="2020-12-03T09:04:24 CST" data-provider="testData2" finished-at="2020-12-03T09:04:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeysFromRxcel -->
+        <test-method status="PASS" signature="testChangeKeysFromRxcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeysFromRxcel" duration-ms="14621" started-at="2020-12-03T09:04:38 CST" data-provider="testData2" finished-at="2020-12-03T09:04:53 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeysFromRxcel -->
+        <test-method status="PASS" signature="testChangeKeysFromRxcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeysFromRxcel" duration-ms="14430" started-at="2020-12-03T09:04:53 CST" data-provider="testData2" finished-at="2020-12-03T09:05:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeysFromRxcel -->
+        <test-method status="PASS" signature="testChangeKeysFromRxcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeKeysFromRxcel" duration-ms="14658" started-at="2020-12-03T09:05:07 CST" data-provider="testData2" finished-at="2020-12-03T09:05:22 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeKeysFromRxcel -->
+        <test-method status="PASS" signature="testChangeToSoftMode()[pri:32, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeToSoftMode" duration-ms="17329" started-at="2020-12-03T09:05:22 CST" finished-at="2020-12-03T09:05:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeToSoftMode -->
+        <test-method status="PASS" signature="testChangeToHardMode()[pri:33, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeToHardMode" duration-ms="17457" started-at="2020-12-03T09:05:39 CST" finished-at="2020-12-03T09:05:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeToHardMode -->
+        <test-method status="PASS" signature="testChangeToClosedMode()[pri:34, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeToClosedMode" duration-ms="17494" started-at="2020-12-03T09:05:57 CST" finished-at="2020-12-03T09:06:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeToClosedMode -->
+        <test-method status="PASS" signature="testRefreshAssets()[pri:35, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testRefreshAssets" duration-ms="22822" started-at="2020-12-03T09:06:14 CST" finished-at="2020-12-03T09:06:37 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefreshAssets -->
+        <test-method status="PASS" signature="testChangeHtmlEditor1()[pri:36, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeHtmlEditor1" duration-ms="18068" started-at="2020-12-03T09:06:37 CST" finished-at="2020-12-03T09:06:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeHtmlEditor1 -->
+        <test-method status="PASS" signature="testChangeHtmlEditor2()[pri:37, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeHtmlEditor2" duration-ms="17767" started-at="2020-12-03T09:06:55 CST" finished-at="2020-12-03T09:07:13 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeHtmlEditor2 -->
+        <test-method status="FAIL" signature="testChangeDefaultAdminEmail()[pri:38, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeDefaultAdminEmail" duration-ms="23187" started-at="2020-12-03T09:07:13 CST" finished-at="2020-12-03T09:07:36 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [testchangedemail@qq.com] but found [314956177@qq.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [testchangedemail@qq.com] but found [314956177@qq.com]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.test.demo.SmokeTesting.testChangeDefaultAdminEmail(SmokeTesting.java:498)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeDefaultAdminEmail -->
+        <test-method status="FAIL" signature="testChangeSiteAdminName()[pri:39, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSiteAdminName" duration-ms="21537" started-at="2020-12-03T09:07:36 CST" finished-at="2020-12-03T09:07:58 CST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [testChangedAdmin] but found [Administrator]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [testChangedAdmin] but found [Administrator]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.test.demo.SmokeTesting.testChangeSiteAdminName(SmokeTesting.java:511)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSiteAdminName -->
+        <test-method status="PASS" signature="testChangeSMTPFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:40, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPFromExcel" duration-ms="21988" started-at="2020-12-03T09:07:58 CST" data-provider="testData3" finished-at="2020-12-03T09:08:20 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smtp.test.org:25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPFromExcel -->
+        <test-method status="PASS" signature="testChangeSMTPFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:40, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPFromExcel" duration-ms="21793" started-at="2020-12-03T09:08:20 CST" data-provider="testData3" finished-at="2020-12-03T09:08:42 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smtp.test.org:7777]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPFromExcel -->
+        <test-method status="PASS" signature="testChangeSMTPFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:40, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPFromExcel" duration-ms="21663" started-at="2020-12-03T09:08:42 CST" data-provider="testData3" finished-at="2020-12-03T09:09:03 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smtp.test.org:4396]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7777777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPFromExcel -->
+        <test-method status="PASS" signature="testChangeSMTPFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:40, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPFromExcel" duration-ms="21759" started-at="2020-12-03T09:09:03 CST" data-provider="testData3" finished-at="2020-12-03T09:09:25 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost:2333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPFromExcel -->
+        <test-method status="PASS" signature="testChangeSMTPSSL1()[pri:41, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPSSL1" duration-ms="21368" started-at="2020-12-03T09:09:25 CST" finished-at="2020-12-03T09:09:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPSSL1 -->
+        <test-method status="PASS" signature="testChangeSMTPSSL2()[pri:42, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPSSL2" duration-ms="21720" started-at="2020-12-03T09:09:46 CST" finished-at="2020-12-03T09:10:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPSSL2 -->
+        <test-method status="PASS" signature="testChangeSMTPDebug1()[pri:43, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPDebug1" duration-ms="21070" started-at="2020-12-03T09:10:08 CST" finished-at="2020-12-03T09:10:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPDebug1 -->
+        <test-method status="PASS" signature="testChangeSMTPDebug2()[pri:44, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSMTPDebug2" duration-ms="20704" started-at="2020-12-03T09:10:29 CST" finished-at="2020-12-03T09:10:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSMTPDebug2 -->
+        <test-method status="PASS" signature="testChangeBounceAccountFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:45, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeBounceAccountFromExcel" duration-ms="21700" started-at="2020-12-03T09:10:50 CST" data-provider="testData4" finished-at="2020-12-03T09:11:12 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.ljy.com:1111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ljy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBounceAccountFromExcel -->
+        <test-method status="PASS" signature="testChangeBounceAccountFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:45, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeBounceAccountFromExcel" duration-ms="21616" started-at="2020-12-03T09:11:12 CST" data-provider="testData4" finished-at="2020-12-03T09:11:33 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost:3306]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBounceAccountFromExcel -->
+        <test-method status="PASS" signature="testChangeBounceAccountFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:45, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeBounceAccountFromExcel" duration-ms="22041" started-at="2020-12-03T09:11:33 CST" data-provider="testData4" finished-at="2020-12-03T09:11:55 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0.0.1:7777777]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBounceAccountFromExcel -->
+        <test-method status="PASS" signature="testChangeBounceAccountFromExcel(java.lang.String, java.lang.String, java.lang.String)[pri:45, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeBounceAccountFromExcel" duration-ms="21555" started-at="2020-12-03T09:11:55 CST" data-provider="testData4" finished-at="2020-12-03T09:12:17 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!aaaaaaaaaaaaaaa!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBounceAccountFromExcel -->
+        <test-method status="PASS" signature="testChangeDefaultLanguage()[pri:46, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeDefaultLanguage" duration-ms="23456" started-at="2020-12-03T09:12:17 CST" finished-at="2020-12-03T09:12:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeDefaultLanguage -->
+        <test-method status="PASS" signature="testDeleteLanguage()[pri:47, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testDeleteLanguage" duration-ms="27912" started-at="2020-12-03T09:12:40 CST" finished-at="2020-12-03T09:13:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteLanguage -->
+        <test-method status="PASS" signature="testAddLanguage()[pri:48, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testAddLanguage" duration-ms="28036" started-at="2020-12-03T09:13:08 CST" finished-at="2020-12-03T09:13:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLanguage -->
+        <test-method status="PASS" signature="testEditPresentationFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditPresentationFromExcel" duration-ms="18051" started-at="2020-12-03T09:13:36 CST" data-provider="testData5" finished-at="2020-12-03T09:13:54 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test title 1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test str 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditPresentationFromExcel -->
+        <test-method status="PASS" signature="testEditPresentationFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditPresentationFromExcel" duration-ms="18940" started-at="2020-12-03T09:13:54 CST" data-provider="testData5" finished-at="2020-12-03T09:14:13 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test title 2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test str 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditPresentationFromExcel -->
+        <test-method status="PASS" signature="testEditPresentationFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testEditPresentationFromExcel" duration-ms="17953" started-at="2020-12-03T09:14:13 CST" data-provider="testData5" finished-at="2020-12-03T09:14:31 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test title 3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test str 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditPresentationFromExcel -->
+        <test-method status="PASS" signature="testChangeSurveyPreviewRequire()[pri:50, instance:com.test.demo.SmokeTesting@3fd7a715]" name="testChangeSurveyPreviewRequire" duration-ms="30686" started-at="2020-12-03T09:14:31 CST" finished-at="2020-12-03T09:15:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeSurveyPreviewRequire -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.test.demo.SmokeTesting@3fd7a715]" name="doAfterMethod" is-config="true" duration-ms="675" started-at="2020-12-03T09:15:02 CST" finished-at="2020-12-03T09:15:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.test.demo.SmokeTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
