@@ -1,3 +1,0 @@
-ch07.testng.Demo4 test1 2020-04-07 17:32:34 FAILURE
-ch07.testng.Demo4 test2 2020-04-07 17:32:34 FAILURE
-ch07.testng.Demo4 test3 2020-04-07 17:32:34 SUCCESS
