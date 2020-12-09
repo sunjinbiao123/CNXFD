@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Nopackage</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Nopackage</h1>
+<p>
+  Test duration: -6429938532.588s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">tests.AddInquire_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  initBrowser
+      </td>
+  <td class="duration">
+    7.215s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43662<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: driver.version: FirefoxDriver</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+              Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+              org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43662</a><br />
+        <div class="stackTrace" id="exception-1">
+                      okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)<br />
+                      okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />
+                      okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />
+                      okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />
+                      okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />
+                      okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />
+                      okhttp3.RealCall.execute(RealCall.java:77)<br />
+                      org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+                      Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+                      org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+                      java.util.ArrayList.forEach(Unknown Source)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+                      org.testng.TestRunner.run(TestRunner.java:587)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+                      org.testng.TestNG.run(TestNG.java:1007)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-2">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />
+                      okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />
+                      okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />
+                      okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />
+                      okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />
+                      okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />
+                      okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />
+                      okhttp3.RealCall.execute(RealCall.java:77)<br />
+                      org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+                      Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+                      org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+                      java.util.ArrayList.forEach(Unknown Source)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+                      org.testng.TestRunner.run(TestRunner.java:587)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+                      org.testng.TestNG.run(TestNG.java:1007)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr class="group">
+        <td colspan="3">tests.Login_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  initBrowser
+      </td>
+  <td class="duration">
+    7.840s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31090<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: driver.version: FirefoxDriver</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+              Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+              org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse">java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31090</a><br />
+        <div class="stackTrace" id="exception-4">
+                      okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)<br />
+                      okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />
+                      okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />
+                      okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />
+                      okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />
+                      okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />
+                      okhttp3.RealCall.execute(RealCall.java:77)<br />
+                      org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+                      Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+                      org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+                      java.util.ArrayList.forEach(Unknown Source)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+                      org.testng.TestRunner.run(TestRunner.java:587)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+                      org.testng.TestNG.run(TestNG.java:1007)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse">java.net.ConnectException: Connection refused: connect</a><br />
+        <div class="stackTrace" id="exception-5">
+                      java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)<br />
+                      java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)<br />
+                      java.net.AbstractPlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.PlainSocketImpl.connect(Unknown Source)<br />
+                      java.net.SocksSocketImpl.connect(Unknown Source)<br />
+                      java.net.Socket.connect(Unknown Source)<br />
+                      okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />
+                      okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />
+                      okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />
+                      okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />
+                      okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />
+                      okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />
+                      okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />
+                      okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />
+                      okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />
+                      okhttp3.RealCall.execute(RealCall.java:77)<br />
+                      org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)<br />
+                      Base.BaseTest.initBrowser(BaseTest.java:25)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)<br />
+                      org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)<br />
+                      org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+                      java.util.ArrayList.forEach(Unknown Source)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+                      org.testng.TestRunner.run(TestRunner.java:587)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+                      org.testng.TestNG.run(TestNG.java:1007)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">tests.AddInquire_Test</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  close
+      </td>
+  <td class="duration">
+    -1607485033.010s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  initPage
+      </td>
+  <td class="duration">
+    -1607485032.756s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">tests.Login_Test</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  close
+      </td>
+  <td class="duration">
+    -1607484548.856s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  initPage
+      </td>
+  <td class="duration">
+    -1607484545.933s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.AddInquire_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    0.085s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.testng.internal.reflect.MethodMatcherException: <br/>
+[public void tests.AddInquire_Test.userManage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).<br/>
+Data provider mismatch<br/>
+Method: userManage([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}])<br/>
+Arguments: [(java.lang.String) firstname,(java.lang.String) yingying,(java.lang.String) lastname,(java.lang.String) pei,(java.lang.String) token,(java.lang.String) 111.0,(java.lang.String) email,(java.lang.String) 652978478@qq.com,(java.lang.String) emailstatus,(java.lang.String) OK,(java.lang.String) usesleft,(java.lang.String) 1.0]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)<br />
+              org.testng.internal.Parameters.injectParameters(Parameters.java:909)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.AddShow_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.959s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "7.0", "tokenlen", "7.0", "firstname", "123abd#$%", "lastname", "abc$%^", "email", "1234.0", "usesleft", "3.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.965s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "1.0", "tokenlen", "9.0", "firstname", "yingying", "lastname", "bbb", "email", "#$%123", "usesleft", "1.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    13.709s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "8.0", "tokenlen", "5.0", "firstname", "sss#$%", "lastname", "123.0", "email", "#$%^", "usesleft", "1.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.636s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "6.0", "tokenlen", "3.0", "firstname", "aaa", "lastname", "$%^", "email", "@qq.com", "usesleft", "3.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.825s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "4.0", "tokenlen", "2.0", "firstname", "123.0", "lastname", "pei", "email", "6.52978478E8", "usesleft", "2.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-9">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    12.147s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "5.0", "tokenlen", "4.0", "firstname", "123aaa", "lastname", "aaa", "email", "aaaa", "usesleft", "0.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-10">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    10.812s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "9.0", "tokenlen", "8.0", "firstname", "$%^", "lastname", "$%^123", "email", "acb123", "usesleft", "0.0"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-11', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[text()=&apos;添加了新示例参与者。&apos;]<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;<br/>
+System info: host: &apos;LAPTOP-LED7K9C6&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 40428, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: efbf4cd7-d26b-4cd3-9b2d-cc335354f9de<br/>
+*** Element info: {Using=xpath, value=//div[text()=&apos;添加了新示例参与者。&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-11">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              tests.AddShow_Test.userManage(AddShow_Test.java:60)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(Unknown Source)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
+              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
+              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.AddInquire_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Login_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login1
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">tests.AddShow_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    17.421s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "abcd1234"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    14.818s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "2.0", "tokenlen", "1.0", "firstname", "yingying", "lastname", "pei", "email", "652978478@qq.com", "usesleft", "1.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    12.395s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"amount", "10.0", "tokenlen", "6.0", "firstname", "123$%^", "lastname", "123abc", "email", "6529@qq.com", "usesleft", "2.0"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Main_Test</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    20.080s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "abcd1234"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.410s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "#￥%", "zhHans", "c111"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    12.671s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "#￥%", "zhHans", "￥%"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.548s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "a11", "zhHans", "cc"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.495s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "111aa", "zhHans", "日期"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.458s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "aaaa", "zhHans", "aaa"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.577s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "aaaa", "zhHans", "d111"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    12.251s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "riqi", "zhHans", "bb"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.731s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "b11", "zhHans", "b111"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage1
+      </td>
+  <td class="duration">
+    11.670s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"defaultname", "beizhu", "zhHans", "a11"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">tests.Main_Test1</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    21.072s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"username", "admin", "password", "abcd1234"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.533s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "a123", "email", "652978484@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.330s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei123", "email", "652978486@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.000s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "652978478@"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.258s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "ying123", "lastname", "pei", "email", "652978478@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.177s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "6529@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    16.419s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "652978478@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.064s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "123#$%", "email", "652978488@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.295s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.155s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "ying@#", "lastname", "pei", "email", "652978480@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.514s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "#$%", "email", "652978485@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.446s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "123456a", "lastname", "pei", "email", "652978479@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.273s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "#$%", "lastname", "pei", "email", "652978482@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    19.067s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "a652978478"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.209s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei123#$%", "email", "652978489@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    16.172s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "ying123%", "lastname", "pei", "email", "652978481@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.121s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "123#$%", "lastname", "pei", "email", "652978483@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.163s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei#$%", "email", "652978487@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.282s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "b6529"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userManage
+      </td>
+  <td class="duration">
+    15.709s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"firstname", "yingying", "lastname", "pei", "email", "@qq.com"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
