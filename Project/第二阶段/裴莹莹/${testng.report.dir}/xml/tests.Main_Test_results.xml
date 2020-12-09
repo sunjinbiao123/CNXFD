@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Nopackage"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="123.487">
+  <properties />
+  
+  
+            <testcase name="userManage1" time="11.827" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="11.656" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="11.571" classname="tests.Main_Test" />
+                <testcase name="login" time="14.810" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="13.241" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="12.262" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="11.765" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="12.475" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="11.709" classname="tests.Main_Test" />
+                <testcase name="userManage1" time="12.171" classname="tests.Main_Test" />
+      
+</testsuite>
