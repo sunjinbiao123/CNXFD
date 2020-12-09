@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="p" value="123456"/>
+  <parameter name="u" value="admin"/>
+  <test thread-count="5" name="Nopackage1(failed)" parallel="methods">
+    <classes>
+      <class name="edu.Demo2">
+        <methods>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="bc"/>
+          <include name="second1"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- edu.Demo2 -->
+    </classes>
+  </test> <!-- Nopackage1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
