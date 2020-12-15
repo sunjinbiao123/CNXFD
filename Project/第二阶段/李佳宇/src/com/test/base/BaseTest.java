@@ -24,6 +24,11 @@ import org.testng.annotations.BeforeSuite;
 import com.test.utils.Log;
 import com.test.utils.ReadProperties;
 
+/*
+ * 李佳宇
+ * 负责模块：LimeSurvey设置模块（主页设定，全局设置）
+ */
+
 public class BaseTest {
 
 	public  WebDriverEngine webtest;

@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+/*
+ * 李佳宇
+ * 负责模块：LimeSurvey设置模块（主页设定，全局设置）
+ */
+
 public class ReadProperties {
 
 	public static final String filePath="conf/config.properties";	

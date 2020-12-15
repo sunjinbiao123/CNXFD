@@ -3,6 +3,11 @@ package com.test.utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/*
+ * 李佳宇
+ * 负责模块：LimeSurvey设置模块（主页设定，全局设置）
+ */
+
 public class Log {
 	static Logger logger = LogManager.getLogger(Log.class);
 

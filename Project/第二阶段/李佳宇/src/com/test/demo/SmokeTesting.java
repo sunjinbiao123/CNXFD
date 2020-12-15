@@ -14,15 +14,20 @@ import org.testng.annotations.Test;
 import com.test.base.BaseTest;
 import com.test.utils.ExcelDataProvider;
 
+/*
+ * 姓名：李佳宇
+ * 测试模块：设置模块（页面设置，全局设置）
+ */
+
 public class SmokeTesting extends BaseTest {
 	
 	@BeforeClass
 	public void testLogin() throws InterruptedException {		
-			webtest.open("http://localhost:7777/index.php/admin/authentication/sa/login");
+			webtest.open("http://localhost/index.php/admin");
 			webtest.type("name=user","admin" );
 			webtest.type("name=password", "admin");
 			webtest.click("name=login_submit");
-			webtest.click("xpath=//*[@id='welcomeModal']/div/div/div[3]/button");
+//			webtest.click("xpath=//*[@id='welcomeModal']/div/div/div[3]/button");
 			assertTrue(webtest.isElementPresent("id=notification-bell"));	
 	}
 	

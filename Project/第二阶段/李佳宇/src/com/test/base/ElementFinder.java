@@ -7,6 +7,11 @@ import org.openqa.selenium.WebElement;
 
 import com.test.utils.Log;
 
+/*
+ * 李佳宇
+ * 负责模块：LimeSurvey设置模块（主页设定，全局设置）
+ */
+
 public class ElementFinder {
 	
 	WebDriver driver;
