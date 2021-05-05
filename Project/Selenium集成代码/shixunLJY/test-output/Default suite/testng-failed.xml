@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.demo.SmokeTesting">
+        <methods>
+          <include name="testEditBtnUrl"/>
+          <include name="testLastSurveyOn"/>
+          <include name="testChangeBtnDirection"/>
+          <include name="testSurveyListOn"/>
+          <include name="testChangeHtmlEditor2"/>
+          <include name="testChangeSiteAdminName"/>
+          <include name="testRefreshAssets"/>
+          <include name="testChangeCharacterset"/>
+          <include name="testSearchOff"/>
+          <include name="testSearchOn"/>
+          <include name="testEditBtnTitle"/>
+          <include name="testChangeTimeAdjust"/>
+          <include name="testCreateBtn"/>
+          <include name="testRestoreBtn"/>
+          <include name="testChangeToSoftMode"/>
+          <include name="testShowPhpConf"/>
+          <include name="testDeleteLanguage"/>
+          <include name="testEditBtnDescription"/>
+          <include name="testChangeHtmlEditor1"/>
+          <include name="testContainerOn"/>
+          <include name="testChangeSMTPFromExcel" invocation-numbers="0 1 2 3"/>
+          <include name="testChangeSMTPSSL2"/>
+          <include name="testChangeToHardMode"/>
+          <include name="testChangeSMTPSSL1"/>
+          <include name="testCreateBtnFromExcel" invocation-numbers="0 1 2 3 4"/>
+          <include name="doAfterMethod"/>
+          <include name="testChangeAdminTheme"/>
+          <include name="testLogoOn"/>
+          <include name="testLogin"/>
+          <include name="testChangeDefaultAdminEmail"/>
+          <include name="testChangeKeys"/>
+          <include name="testEditBtnIcon"/>
+          <include name="testChangeDefaultTheme"/>
+          <include name="testChangeKeysFromRxcel" invocation-numbers="0 1 2 3 4"/>
+          <include name="testEditBtnPosition"/>
+          <include name="testEditBtnShowTo"/>
+          <include name="testChangeSurveyPreviewRequire"/>
+          <include name="testEditBtnFromExcel" invocation-numbers="0 1 2 3 4"/>
+          <include name="testChangeDefaultLanguage"/>
+          <include name="testChangeBounceAccountFromExcel" invocation-numbers="0 1 2 3"/>
+          <include name="testChangeSMTPDebug2"/>
+          <include name="testChangeSMTPDebug1"/>
+          <include name="doBeforeClass"/>
+          <include name="testEditPresentationFromExcel" invocation-numbers="0 1 2"/>
+          <include name="testChangeSiteName"/>
+        </methods>
+      </class> <!-- com.test.demo.SmokeTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

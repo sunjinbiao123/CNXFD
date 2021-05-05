@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Nopackage"
+           tests="20"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="311.139">
+  <properties />
+  
+  
+            <testcase name="userManage" time="15.159" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.389" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.065" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.265" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.220" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.660" classname="tests.Main_Test1" />
+                <testcase name="login" time="18.525" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="17.790" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.178" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.886" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="14.890" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.113" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.132" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.179" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.305" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.608" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.042" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.352" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.281" classname="tests.Main_Test1" />
+                <testcase name="userManage" time="15.100" classname="tests.Main_Test1" />
+      
+</testsuite>
